@@ -4,4 +4,3 @@
 npm i (to install) <br> 
 npm cypress (to run locally)
 
-
