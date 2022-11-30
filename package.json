@@ -6,7 +6,7 @@
   "scripts": {
     "html-report": "cypress run",
     "cypress": "cypress open",
-    "dev": "cypress run --headed --browser chrome"
+    "dev": "cypress run"
   },
   "author": "",
   "license": "ISC",
