@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "html-report": "cypress run",
-    "cypress": "cypress open"
+    "cypress": "cypress open",
+    "dev": "cypress run --headed --browser chrome"
   },
   "author": "",
   "license": "ISC",
