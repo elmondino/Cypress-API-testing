@@ -4,9 +4,8 @@
   "description": "Lloyds API testing",
   "main": "index.js",
   "scripts": {
-    "html-report": "cypress run",
-    "cypress": "cypress open",
-    "dev": "cypress run"
+    "git-hub-actions": "cypress run",
+    "cypress": "cypress open"
   },
   "author": "",
   "license": "ISC",
@@ -14,5 +13,8 @@
     "chai-json-schema": "^1.5.1",
     "cypress": "^11.2.0",
     "cypress-plugin-api": "^2.6.1"
+  },
+  "devDependencies": {
+    "cypress-mochawesome-reporter": "^3.2.3"
   }
 }
