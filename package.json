@@ -14,8 +14,5 @@
     "chai-json-schema": "^1.5.1",
     "cypress": "^11.2.0",
     "cypress-plugin-api": "^2.6.1"
-  },
-  "devDependencies": {
-    "cypress-mochawesome-reporter": "^3.2.3"
   }
 }
