@@ -1,3 +1,5 @@
+import convert from 'xml-js'
+
 describe(`Feature: Testing additional APIs with Cypress`, () => {
   context(
     `Scenario: When DELETE request is sent to https://reqres.in/api/users/7`,
