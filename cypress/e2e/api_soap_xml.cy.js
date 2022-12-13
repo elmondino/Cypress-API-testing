@@ -1,6 +1,6 @@
 import { xml2js } from "../support/utils";
 
-describe(`Feature: Testing additional APIs with Cypress`, () => {
+describe(`Feature: Testing SOAP XML APIs with Cypress`, () => {
   context(
     `Scenario: Making request to https://www.swi-prolog.org/pack/file_details/wsdl/examples/country.wsdl`,
     () => {
@@ -13,6 +13,7 @@ describe(`Feature: Testing additional APIs with Cypress`, () => {
           cy.request({
             url: "https://www.swi-prolog.org/pack/file_details/wsdl/examples/country.wsdl",
           }).then((response) => {
+            // cy.log(response.body)
             const body = xml2js(response.body);
             cy.log(body)
 
